@@ -26,4 +26,8 @@
   - 修复声卡驱动
     - 支持显示器音频输出
 
+## 截图
+
+![iterm2](./ScreenShots/HDMI-audio.png)
+
 ![iterm2](./ScreenShots/Beelink-SER5-MAX-iTerm.png)
