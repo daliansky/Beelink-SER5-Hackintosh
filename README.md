@@ -19,4 +19,11 @@
 | 无线网卡  | m.2 NGFF插槽，默认出厂为 `Intel AX200` 已更换为[BCM94360Z3](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | 有线网卡1 |               Intel Ethernet Controller I225-V               |
 
+## 更新日志
+
+- 8-16-2023
+  - 更新 `OpenCore` 到 `v0.9.4` Release
+  - 修复声卡驱动
+    - 支持显示器音频输出
+
 ![iterm2](./ScreenShots/Beelink-SER5-MAX-iTerm.png)

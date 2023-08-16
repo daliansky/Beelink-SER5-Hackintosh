@@ -370,9 +370,9 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>AppleALC.kext</string>
+				<string>AppleALC_5800H.kext</string>
 				<key>Comment</key>
-				<string>V1.8.4 | AppleALC.kext</string>
+				<string>V1.8.1 | AppleALC.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
