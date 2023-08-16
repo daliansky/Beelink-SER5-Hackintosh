@@ -28,6 +28,6 @@
 
 ## 截图
 
-![iterm2](./ScreenShots/HDMI-audio.png)
+![iterm2](./ScreenShots/HDMI-Audio.png)
 
 ![iterm2](./ScreenShots/Beelink-SER5-MAX-iTerm.png)
