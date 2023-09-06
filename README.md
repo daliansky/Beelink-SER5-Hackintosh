@@ -21,12 +21,18 @@
 
 ## 更新日志
 
+- 9-6-2023
+  - 修复声卡驱动
+    - 声卡支持输入/输出
+  
 - 8-16-2023
   - 更新 `OpenCore` 到 `v0.9.4` Release
   - 修复声卡驱动
     - 支持显示器音频输出
 
 ## 截图
+
+![Beelink-SER5-5800H_Micphone_OK](./ScreenShots/Beelink-SER5-5800H_Micphone_OK.png)
 
 ![iterm2](./ScreenShots/HDMI-Audio.png)
 
