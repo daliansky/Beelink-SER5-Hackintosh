@@ -21,9 +21,11 @@
 
 ## 更新日志
 
+- 3-15-2024
+  - 更新 `IOSkywalkFamily.kext` 到 `v1.1.0`
+  - `Sonoma` 如果想更新到 `14.4` 请务必先更新 `EFI` ，然后再安装 [OCLP]([OCLP.md | 黑果小兵的云盘 (daliansky.net)](https://pan.daliansky.net/APPS/OCLP/OCLP.md))，重启后，再升级到 `14.4` 否则会出现 `WIFI` 无法启用的问题
 - 9-7-2023
   - 重要更新：修复APU核显驱动卡顿问题
-  
 - 9-6-2023
   - 修复声卡驱动
     - 声卡支持输入/输出
