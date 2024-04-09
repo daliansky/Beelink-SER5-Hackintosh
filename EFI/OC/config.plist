@@ -3,11 +3,11 @@
 <plist version="1.0">
     <dict>
         <key>#Build Date</key>
-        <string>9-7-2023</string>
+        <string>3-28-2024</string>
         <key>#Maker by</key>
         <string>Beelink/零刻 SER5 PRO MAX</string>
         <key>#OpenCore Version</key>
-        <string>v0.9.4 Release</string>
+        <string>v0.9.9 Release</string>
         <key>#Posted on</key>
         <string>黑果小兵的部落阁 https://blog.daliansky.net</string>
         <key>ACPI</key>
@@ -442,7 +442,7 @@
                     <key>Comment</key>
                     <string>V2.4.2 | RTL8111 patches</string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/RealtekRTL8111</string>
                     <key>MaxKernel</key>
@@ -460,7 +460,7 @@
                     <key>Comment</key>
                     <string>V1.0.0d1</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/AppleIGC</string>
                     <key>MaxKernel</key>

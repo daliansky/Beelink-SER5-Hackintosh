@@ -442,7 +442,7 @@
                     <key>Comment</key>
                     <string>V2.4.2 | RTL8111 patches</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/RealtekRTL8111</string>
                     <key>MaxKernel</key>
@@ -460,9 +460,63 @@
                     <key>Comment</key>
                     <string>V1.0.0d1</string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/AppleIGC</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>IntelBluetoothInjector.kext</string>
+                    <key>Comment</key>
+                    <string>V2.4.0</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string></string>
+                    <key>MaxKernel</key>
+                    <string>21.99.99</string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>IntelBTPatcher.kext</string>
+                    <key>Comment</key>
+                    <string>V2.4.0</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/IntelBTPatcher</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>IntelBluetoothFirmware.kext</string>
+                    <key>Comment</key>
+                    <string>V2.4.0</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/IntelBluetoothFirmware</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -492,15 +546,33 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>IOSkywalkFamily.kext</string>
+                    <string>AirportItlwm_for_Sonoma_14.4.kext</string>
                     <key>Comment</key>
-                    <string>V1.0</string>
+                    <string>V2.3.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
-                    <string>Contents/MacOS/IOSkywalkFamily</string>
+                    <string>Contents/MacOS/AirportItlwm</string>
                     <key>MaxKernel</key>
-                    <string></string>
+                    <string>23.99.99</string>
+                    <key>MinKernel</key>
+                    <string>23.4.0</string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>AirportItlwm_for_Sonoma.kext</string>
+                    <key>Comment</key>
+                    <string>V2.3.0</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/AirportItlwm</string>
+                    <key>MaxKernel</key>
+                    <string>23.3.99</string>
                     <key>MinKernel</key>
                     <string>23.0.0</string>
                     <key>PlistPath</key>
@@ -510,17 +582,17 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>IO80211FamilyLegacy.kext</string>
+                    <string>AirportItlwm_for_Ventura.kext</string>
                     <key>Comment</key>
-                    <string>V1200.12.2b1</string>
+                    <string>V2.2.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
-                    <string>Contents/MacOS/IO80211FamilyLegacy</string>
+                    <string>Contents/MacOS/AirportItlwm</string>
                     <key>MaxKernel</key>
-                    <string></string>
+                    <string>22.99.99</string>
                     <key>MinKernel</key>
-                    <string>23.0.0</string>
+                    <string>22.0.0</string>
                     <key>PlistPath</key>
                     <string>Contents/Info.plist</string>
                 </dict>
@@ -528,17 +600,17 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>IO80211FamilyLegacy.kext/Contents/PlugIns/AirPortBrcmNIC.kext</string>
+                    <string>AirportItlwm_for_Monterey.kext</string>
                     <key>Comment</key>
-                    <string>V1400.1.1</string>
+                    <string>V2.2.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
-                    <string>Contents/MacOS/AirPortBrcmNIC</string>
+                    <string>Contents/MacOS/AirportItlwm</string>
                     <key>MaxKernel</key>
-                    <string></string>
+                    <string>21.99.99</string>
                     <key>MinKernel</key>
-                    <string>23.0.0</string>
+                    <string>21.0.0</string>
                     <key>PlistPath</key>
                     <string>Contents/Info.plist</string>
                 </dict>
@@ -546,40 +618,23 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>AMFIPass.kext</string>
+                    <string>AirportItlwm_for_BigSur.kext</string>
                     <key>Comment</key>
-                    <string>V1.4.0</string>
+                    <string>V2.2.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
-                    <string>Contents/MacOS/AMFIPass</string>
+                    <string>Contents/MacOS/AirportItlwm</string>
                     <key>MaxKernel</key>
-                    <string></string>
+                    <string>20.99.99</string>
                     <key>MinKernel</key>
-                    <string></string>
+                    <string>20.0.0</string>
                     <key>PlistPath</key>
                     <string>Contents/Info.plist</string>
                 </dict>
             </array>
             <key>Block</key>
-            <array>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>Comment</key>
-                    <string>Allow IOSkywalk Downgrade</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Identifier</key>
-                    <string>com.apple.iokit.IOSkywalkFamily</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string>23.0.0</string>
-                    <key>Strategy</key>
-                    <string>Exclude</string>
-                </dict>
-            </array>
+            <array/>
             <key>Emulate</key>
             <dict>
                 <key>Cpuid1Data</key>
@@ -1402,7 +1457,7 @@
                 <key>ScanPolicy</key>
                 <integer>0</integer>
                 <key>SecureBootModel</key>
-                <string>Disabled</string>
+                <string>j160</string>
                 <key>Vault</key>
                 <string>Optional</string>
             </dict>
@@ -1464,6 +1519,50 @@
                     <key>TextMode</key>
                     <false/>
                 </dict>
+                <dict>
+                    <key>Arguments</key>
+                    <string></string>
+                    <key>Auxiliary</key>
+                    <true/>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Flavour</key>
+                    <string>Auto</string>
+                    <key>FullNvramAccess</key>
+                    <true/>
+                    <key>Name</key>
+                    <string>CleanNvram</string>
+                    <key>Path</key>
+                    <string>CleanNvram.efi</string>
+                    <key>RealPath</key>
+                    <true/>
+                    <key>TextMode</key>
+                    <true/>
+                </dict>
+                <dict>
+                    <key>Arguments</key>
+                    <string></string>
+                    <key>Auxiliary</key>
+                    <true/>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Flavour</key>
+                    <string>Auto</string>
+                    <key>FullNvramAccess</key>
+                    <true/>
+                    <key>Name</key>
+                    <string>ResetSystem</string>
+                    <key>Path</key>
+                    <string>ResetSystem.efi</string>
+                    <key>RealPath</key>
+                    <true/>
+                    <key>TextMode</key>
+                    <true/>
+                </dict>
             </array>
         </dict>
         <key>NVRAM</key>
@@ -1472,16 +1571,10 @@
             <dict>
                 <key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
                 <dict>
-                    <key>OCLP-Settings</key>
-                    <string>-allow_amfi</string>
-                    <key>revblock</key>
-                    <string>media</string>
                     <key>revcpu</key>
                     <integer>1</integer>
                     <key>revcpuname</key>
-                    <string>AMD Ryzen™ 7 5800H</string>
-                    <key>revpatch</key>
-                    <string>sbvmm</string>
+                    <string>AMD Ryzen™ 7  5800H with Radeon Graphics</string>
                     <key>rtc-blacklist</key>
                     <data></data>
                 </dict>
@@ -1496,9 +1589,9 @@
                     <key>bluetoothInternalControllerInfo</key>
                     <data>AAAAAAAAAAAAAAAAAAA=</data>
                     <key>boot-args</key>
-                    <string>ipc_control_port_options=0 -no_compat_check revpatch=sbvmm revblock=media keepsyms=1 debug=0x100 alcid=58 -lilubetaall</string>
+                    <string>revpatch=sbvmm revblock=media keepsyms=1 debug=0x100 alcid=58 -lilubetaall</string>
                     <key>csr-active-config</key>
-                    <data>fwoAAA==</data>
+                    <data>AAAAAA==</data>
                     <key>prev-lang:kbd</key>
                     <string>zh-Hants:252</string>
                     <key>run-efi-updater</key>
@@ -1513,10 +1606,10 @@
                 </array>
                 <key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
                 <array>
-                    <string>OCLP-Version</string>
                     <string>rtc-blacklist</string>
-                    <string>revblock</string>
-                    <string>revpatch</string>
+                    <string>opencore-version</string>
+                    <string>revcpu</string>
+                    <string>revcpuname</string>
                 </array>
                 <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
                 <array>
