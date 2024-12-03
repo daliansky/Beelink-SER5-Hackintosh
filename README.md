@@ -34,6 +34,11 @@
   - 修复声卡驱动
     - 支持显示器音频输出
 
+## 购买链接:
+
+- [黑苹果定制版](https://item.taobao.com/item.htm?id=849425992734)
+- [官方标配](https://u.jd.com/u6CAzYx)
+
 ## 截图
 
 ![Beelink-SER5-5800H_Micphone_OK](./ScreenShots/Beelink-SER5-5800H_Micphone_OK.png)
